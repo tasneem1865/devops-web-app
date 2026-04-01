@@ -4,7 +4,7 @@ function handleSubmit(event) {
     let name = document.getElementById("name").value;
 
     document.getElementById("message").innerText =
-        "Form submitted successfully, " + name + "!";
+        "Updated form submitted successfully 🎉, " + name + "!";
 
     return false;
 }
